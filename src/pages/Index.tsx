@@ -32,33 +32,31 @@ const Index = () => {
         </div>
       </header>
 
-      <section className="py-20 bg-gradient-to-br from-primary via-primary/95 to-primary/90">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="text-white">
-              <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-                Профессиональная бухгалтерия для вашего бизнеса
-              </h1>
-              <p className="text-xl mb-8 text-white/90">
-                Надежный учет, своевременная отчетность и экспертные консультации — всё что нужно для успешного развития вашей компании
-              </p>
-              <div className="flex gap-4">
-                <Link to="/contacts">
-                  <Button size="lg" className="bg-accent hover:bg-accent/90 text-white">
-                    Получить консультацию
-                  </Button>
-                </Link>
-                <Button size="lg" variant="outline" className="bg-white/10 text-white border-white/30 hover:bg-white/20">
-                  Подробнее
+      <section className="py-20 bg-gradient-to-br from-primary via-primary/95 to-primary/90 relative overflow-hidden">
+        <div className="absolute inset-0 opacity-10">
+          <img 
+            src="https://cdn.poehali.dev/projects/fad05332-5f34-4748-8da5-ed70c59aa5b8/files/be1b108a-6514-4da8-b8ee-212a34c6861b.jpg" 
+            alt="Фон"
+            className="w-full h-full object-cover"
+          />
+        </div>
+        <div className="container mx-auto px-4 relative z-10">
+          <div className="max-w-4xl mx-auto text-center text-white">
+            <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight drop-shadow-lg">
+              Профессиональная бухгалтерия для вашего бизнеса
+            </h1>
+            <p className="text-xl mb-8 text-white/95 drop-shadow-md">
+              Надежный учет, своевременная отчетность и экспертные консультации — всё что нужно для успешного развития вашей компании
+            </p>
+            <div className="flex gap-4 justify-center">
+              <Link to="/contacts">
+                <Button size="lg" className="bg-accent hover:bg-accent/90 text-white shadow-lg">
+                  Получить консультацию
                 </Button>
-              </div>
-            </div>
-            <div className="hidden md:block">
-              <img 
-                src="https://cdn.poehali.dev/projects/fad05332-5f34-4748-8da5-ed70c59aa5b8/files/be1b108a-6514-4da8-b8ee-212a34c6861b.jpg" 
-                alt="Бухгалтерские услуги"
-                className="rounded-lg shadow-2xl"
-              />
+              </Link>
+              <Button size="lg" variant="outline" className="bg-white/10 text-white border-white/30 hover:bg-white/20 backdrop-blur-sm">
+                Подробнее
+              </Button>
             </div>
           </div>
         </div>
