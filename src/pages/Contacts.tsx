@@ -108,8 +108,7 @@ const Contacts = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-primary mb-1">Адрес</h3>
-                      <p className="text-muted-foreground">Москва, ул. Примерная, д. 1</p>
-                      <p className="text-sm text-muted-foreground">БЦ "Деловой", офис 305</p>
+                      <p className="text-muted-foreground">Саранск</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -262,7 +261,7 @@ const Contacts = () => {
                 </li>
                 <li className="flex items-center gap-2">
                   <Icon name="MapPin" size={16} />
-                  Москва, ул. Примерная, 1
+                  Саранск
                 </li>
               </ul>
             </div>
