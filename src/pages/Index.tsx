@@ -273,11 +273,11 @@ const Index = () => {
               <ul className="space-y-2 text-sm text-white/80">
                 <li className="flex items-center gap-2">
                   <Icon name="Phone" size={16} />
-                  +7 (495) 123-45-67
+                  +7 977 727 47 53
                 </li>
                 <li className="flex items-center gap-2">
                   <Icon name="Mail" size={16} />
-                  info@balans.ru
+                  alishka-v@mail.ru
                 </li>
                 <li className="flex items-center gap-2">
                   <Icon name="MapPin" size={16} />

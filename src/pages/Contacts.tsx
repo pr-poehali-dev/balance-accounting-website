@@ -82,7 +82,7 @@ const Contacts = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-primary mb-1">Телефон</h3>
-                      <p className="text-muted-foreground">+7 (495) 123-45-67</p>
+                      <p className="text-muted-foreground">+7 977 727 47 53</p>
                       <p className="text-sm text-muted-foreground">Пн-Пт: 9:00 - 18:00</p>
                     </div>
                   </CardContent>
@@ -95,7 +95,7 @@ const Contacts = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold text-primary mb-1">Email</h3>
-                      <p className="text-muted-foreground">info@balans.ru</p>
+                      <p className="text-muted-foreground">alishka-v@mail.ru</p>
                       <p className="text-sm text-muted-foreground">Ответим в течение 24 часов</p>
                     </div>
                   </CardContent>
@@ -254,11 +254,11 @@ const Contacts = () => {
               <ul className="space-y-2 text-sm text-white/80">
                 <li className="flex items-center gap-2">
                   <Icon name="Phone" size={16} />
-                  +7 (495) 123-45-67
+                  +7 977 727 47 53
                 </li>
                 <li className="flex items-center gap-2">
                   <Icon name="Mail" size={16} />
-                  info@balans.ru
+                  alishka-v@mail.ru
                 </li>
                 <li className="flex items-center gap-2">
                   <Icon name="MapPin" size={16} />
